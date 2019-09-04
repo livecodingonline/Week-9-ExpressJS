@@ -29,7 +29,7 @@ app.get('/transfers', function(req, res){
     for(i of database){
         transfers += `<p>${i}</p><hr/>`
     }
-    res.send(`<h3 style='color:red'>Welcome to Calculator!</h3><br/> ${transfers}`);
+    res.send(`<h3 style='color:red'>Welcome to Galatasaray!</h3><br/> ${transfers}`);
       
 })
 
